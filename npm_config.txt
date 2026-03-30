@@ -1,0 +1,13 @@
+﻿; "user" config from C:\Users\abhim\.npmrc
+
+@fortawesome:registry = "https://npm.fontawesome.com/"
+//npm.fontawesome.com/:_authToken = (protected)
+legacy-peer-deps = true
+
+; node bin location = C:\nvm4w\nodejs\node.exe
+; node version = v22.22.0
+; npm local prefix = C:\Users\abhim\OneDrive\Desktop\School\CRM\crm_js_backend
+; npm version = 10.9.4
+; cwd = C:\Users\abhim\OneDrive\Desktop\School\CRM\crm_js_backend
+; HOME = C:\Users\abhim
+; Run `npm config ls -l` to show all defaults.
