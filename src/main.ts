@@ -22,7 +22,7 @@ async function bootstrap() {
   app.useGlobalFilters(new GlobalExceptionFilter());
 
   // default to port 7000 as the application historically ran on this port
-  const port = process.env.PORT || 7000;
+  const port = process.env.PORT || 8080;
   await app.listen(port);
   console.log(`Application is running on: http://localhost:${port}`);
 }
