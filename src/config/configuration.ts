@@ -17,7 +17,6 @@ export default () => ({
     expiresIn: parseInt(process.env.ACCESS_TOKEN_EXPIRE_MINUTES || '10080', 10) * 60, // in seconds
   },
   gcp: {
-    credentialsJson: process.env.GCP_CREDENTIALS_JSON,
     bucketName: process.env.GCP_STORAGE_BUCKET || 'ai-crm-recordings',
   },
   ai: {
